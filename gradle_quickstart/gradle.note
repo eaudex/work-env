@@ -1,0 +1,33 @@
+Gradle is a general-purpose build tool.
+
+It can build anything in a build script;
+it cannot build anything unless you add code to a build script.
+
+Building a Java project usually involves
+- compile source files
+- run unit tests
+- create a JAR file
+
+Java Plugin defines a number of tasks and properties.
+
+Tasks
+- build - compiles, tests, jars
+- clean - removes built files
+- assemble - compiles and jars
+- check - compiles and tests
+
+Properties
+- version
+- sourceCompatibility
+
+Project Layout
+- src/main/java
+- src/main/resources
+- src/test/java
+- src/test/resources
++ build.gradle
+
+Run a main function in a jar
+java -jar xxx.jar   // main function needs to be specified in MANIFECT.MF
+java -cp *.jar ClassPath.MainClassName
+
