@@ -6,3 +6,6 @@ python setup sdist      # build a source distribution
 python setup upload     # upload the src dist to PyPI server
 
 pip install pypackage   # install the pkg thru pip
+
+[Ref]
+- https://python-packaging.readthedocs.org/en/latest/minimal.html
