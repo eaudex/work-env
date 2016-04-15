@@ -1,0 +1,11 @@
+vbell off
+autodetach on
+startup_message off
+defencoding utf8
+defscrollback 30000
+#shelltitle "$ |bash"
+
+#hardstatus alwayslastline "%-Lw%{= BW}%50>%n%f* %t%{-}%+Lw%<"
+#hardstatus alwayslastline "%{= bw} %c | %-Lw%{=b by}%n%f[%t]%{= .w}%+Lw%=%H"
+#hardstatus alwayslastline "%{= bw} %m/%d %c | %-w%{=b bY}%n[%t]%{= bw}%+w%=%H "
+hardstatus alwayslastline "%{wb} %m/%d %c%{gk} %-w%{+b}%{yk}= %n %t =%{-b}%{gk}%+w %=%H "
