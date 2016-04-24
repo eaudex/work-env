@@ -1,0 +1,44 @@
+# environment config
+NOW=$(date +'%Y-%m-%d %H:%M:%S')
+TODAY=$(date +'%Y-%m-%d')
+
+echo "===================================="
+echo "NOW=$NOW"
+echo "TODAY=$TODAY"
+echo "USER=$USER"
+echo "HOME=$HOME"
+echo "PATH=$PATH"
+echo "PWD=$PWD"
+#echo "$OLDPWD"
+
+RUN_MODE=QA
+#RUN_MODE=STG
+#RUN_MODE=PROD
+#RUN_MODE=XDD
+if [ $RUN_MODE == 'QA' ]; then
+    echo 'RUN_MODE=QA'
+elif [ $RUN_MODE == 'STG' ]; then
+    echo 'RUN_MODE=STG'
+elif [ $RUN_MODE == 'PROD' ]; then
+    echo 'RUN_MODE=PROD'
+else
+    echo "Unknown RUN_MODE=$RUN_MODE"
+    exit 1
+fi
+echo "===================================="
+
+MYSQL_CLI=
+MONGO_GET_CLI=
+MONGO_PUT_CLI=
+HIVE_CLI=
+PIG_CLI=
+SPARK_CLI=
+
+function get_epoch()
+{
+    local _ds=$(date +'%s')
+    echo $_ds
+}
+
+#https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps
+
