@@ -39,6 +39,7 @@ function get_epoch()
     local _ds=$(date +'%s')
     echo $_ds
 }
+# use a=`get_epoch` to get $_ds thru command substitution
 
 #https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps
 
