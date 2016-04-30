@@ -1,2 +1,3 @@
 include README.rst
-include pypackage/data.json
+include pypackage/resource/config.yaml
+include pypackage/resource/data.json

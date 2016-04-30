@@ -1,0 +1,18 @@
+# for production
+PROD:
+    ARACHNE:    arachne.prod.google.com
+    BISMARCK:   bismarck.prod.google.com
+    PEEPS:      peeps.prod.google.com
+    TOLA:       tola.prod.google.com
+# for staging
+STG:
+    ARACHNE:    arachne.stg.google.com
+    BISMARCK:   bismarck.stg.google.com
+    PEEPS:      peeps.stg.google.com
+    TOLA:       tola.stg.google.com
+# for QA
+QA:
+    ARACHNE:    arachne.qa.google.com
+    BISMARCK:   bismarck.qa.google.com
+    PEEPS:      peeps.qa.google.com
+    TOLA:       tola.qa.google.com
