@@ -1,4 +1,4 @@
-= PY AWESOME =
+# PY AWESOME #
 - - - - 
 python setup install    # install the pkg
 python setup develop    # install the pkg as a symlink
