@@ -15,5 +15,8 @@ setup(name='pypackage',
       dependency_links=[],
       include_package_data=True,
       zip_safe=False,
-      scripts=['bin/script.sh'],
+      scripts=[
+          'bin/script.sh',
+          'bin/script.py',
+      ],
 )
