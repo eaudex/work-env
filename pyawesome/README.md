@@ -15,6 +15,6 @@
 
 - - - - 
 
-[Ref]
+## References ##
 * https://python-packaging.readthedocs.org/en/latest/minimal.html
 * https://github.com/nose-devs/nose2/blob/master/docs/usage.rst
