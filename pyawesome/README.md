@@ -1,5 +1,8 @@
-# PY AWESOME #
-- - - - 
+# PYAWESOME #
+## What is PYAWESOME ##
+
+## How to use PYAWESOME ##
+
 python setup install    # install the pkg
 python setup develop    # install the pkg as a symlink
 
@@ -9,5 +12,8 @@ python setup upload     # upload the src dist to PyPI server
 
 pip install pypackage   # install the pkg thru pip
 
+- - - - 
+
 [Ref]
-- https://python-packaging.readthedocs.org/en/latest/minimal.html
+* https://python-packaging.readthedocs.org/en/latest/minimal.html
+* https://github.com/nose-devs/nose2/blob/master/docs/usage.rst
