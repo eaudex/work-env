@@ -14,7 +14,7 @@ Then you can start a python project.
 * `python setup upload`     # upload the src dist to PyPI server
 * `pip install pypackage`   # install the pkg thru pip
 
-## Featuers ##
+## Features ##
 * unit test thru nose2
 * non-code files
 * command-line tools
