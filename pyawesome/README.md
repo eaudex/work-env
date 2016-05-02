@@ -1,6 +1,6 @@
 # PYAWESOME #
 ## What is PYAWESOME ##
-This is a template for packaging your python code.
+This is a working template for packaging your python code.
 
 ## How to use PYAWESOME ##
 You simply clone everything under pyawesome.
@@ -13,6 +13,11 @@ Then you can start a python project.
 * `python setup sdist`      # build a source distribution
 * `python setup upload`     # upload the src dist to PyPI server
 * `pip install pypackage`   # install the pkg thru pip
+
+## Featuers ##
+* unittest
+* non-code files
+* command-line tools
 
 - - - - 
 
