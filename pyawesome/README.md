@@ -15,9 +15,10 @@ Then you can start a python project.
 * `pip install pypackage`   # install the pkg thru pip
 
 ## Featuers ##
-* unittest
+* unit test thru nose2
 * non-code files
 * command-line tools
+* configuration files
 
 - - - - 
 
