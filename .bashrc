@@ -7,6 +7,7 @@ shopt -s histappend
 OS=${OSTYPE/[^a-z]*/}
 OSM=${OSTYPE/.[0-9]*/}
 
+unset TMOUT
 unset LANGUAGE
 export CLICOLOR_FORCE
 export LANG=en_US.UTF-8
