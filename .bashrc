@@ -34,8 +34,8 @@ alias rm="/bin/rm -i"
 alias cp="/bin/cp -i"
 alias mv="/bin/mv -i"
 
-alias colorls="/bin/ls -F --show-control-chars --color=always"
-#alias colorls="/bin/ls -FGw"
+alias colorls="/bin/ls -F --show-control-chars --color=always"	#for LINUX
+#alias colorls="/bin/ls -FGw"					#for MAC
 alias ls="colorls"
 alias ll="colorls -rtlh"
 
