@@ -8,15 +8,15 @@ stty erase ^H
 #OSM=${OSTYPE/.[0-9]*/}
 
 unset TMOUT
-unset LANGUAGE
-export CLICOLOR_FORCE
-export LANG=en_US.UTF-8
+#unset LANGUAGE
+#export CLICOLOR_FORCE
+#export LANG=en_US.UTF-8
 #export LC_MESSAGES=en_US.UTF-8
 #export _ENG_LOCALE=en_US.UTF-8
-export LC_ALL=en_US
-export LC_TIME=C
-export LESS="-giMnRSw"
-export LS_COLORS="di=1;36:ln=0;35:so=0;32:pi=0;33:ex=0;31:bd=0;34;46:cd=0;34;43"
+#export LC_ALL=en_US
+#export LC_TIME=C
+#export LESS="-giMnRSw"
+#export LS_COLORS="di=1;36:ln=0;35:so=0;32:pi=0;33:ex=0;31:bd=0;34;46:cd=0;34;43"
 #export HISTTIMEFORMAT="%F %T "
 
 if [ "$TERM" == "screen" ]; then
@@ -35,16 +35,18 @@ alias rm="/bin/rm -i"
 alias cp="/bin/cp -i"
 alias mv="/bin/mv -i"
 
-alias colorls="/bin/ls -F --show-control-chars --color=always"	#for LINUX
-#alias colorls="/bin/ls -FGw"					#for MAC
+alias colorls="/bin/ls -F --show-control-chars --color=always"  #for LINUX
+#alias colorls="/bin/ls -FGw"                                   #for MAC
 alias ls="colorls"
 alias ll="colorls -rtlh"
 
-alias top="/usr/bin/top -d 1"
-#alias top="/usr/bin/top -s 1"
+alias top="/usr/bin/top -d 1"   #for LINUX
+#alias top="/usr/bin/top -s 1"  #for MAC
+
 alias ssh="/usr/bin/ssh -2 -4 -C"
 alias vi="/usr/bin/vim"
-alias gogo="ssh eaudex@gxyuan.com"
+
+
 
 ## ssh + screen title
 #function sshs() {
