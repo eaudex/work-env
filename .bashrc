@@ -3,9 +3,9 @@
 #
 
 shopt -s histappend
-#stty erase ^H
-OS=${OSTYPE/[^a-z]*/}
-OSM=${OSTYPE/.[0-9]*/}
+stty erase ^H
+#OS=${OSTYPE/[^a-z]*/}
+#OSM=${OSTYPE/.[0-9]*/}
 
 unset TMOUT
 unset LANGUAGE
