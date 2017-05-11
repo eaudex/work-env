@@ -3,6 +3,8 @@
 shopt -s histappend
 stty erase ^H
 unset TMOUT
+
+export LANG=en_US.UTF-8
 #export LESS="-giMnRSw"
 #export LS_COLORS="di=1;36:ln=0;35:so=0;32:pi=0;33:ex=0;31:bd=0;34;46:cd=0;34;43"
 #export HISTTIMEFORMAT="%F %T "
