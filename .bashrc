@@ -16,9 +16,12 @@ else
 fi
 
 export PTATH=$HOME/bin:$PATH
-export PYTHONSTARTUP=$HOME/.pythonrc
 export VISUAL=vim
 export EDITOR=vim
+#export JAVA_HOME=
+#export HADOOP_HOME=
+#export HIVE_HOME=
+#export PYTHONSTARTUP=$HOME/.pythonrc
 
 # CMD Aliases
 alias rm="/bin/rm -i"
