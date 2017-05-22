@@ -1,7 +1,7 @@
 # .bashrc
 
 shopt -s histappend
-stty erase ^H
+stty erase ^?
 unset TMOUT
 
 export LANG=en_US.UTF-8
